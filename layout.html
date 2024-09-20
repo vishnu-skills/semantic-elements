@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="layout.css" rel="stylesheet" />
+    <title>layout of HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hi</h1>
+        <p>This webpage about layout of HTML </p>
+
+        <nav>
+            <ul>
+                <li><a href="#section">Section</a></li>
+                <li><a href="#article&aside">Article&Aside</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section">
+            <figure>
+                <img src="img1.jpg" alt="image" >
+                <figcaption>Fig.1 - palani, dindigul. </figcaption>
+              </figure>
+              <figure>
+                <img src="img2.webp" alt="image" >
+                <figcaption>Fig.1 - palani, dindigul .</figcaption>
+              </figure>
+        </section>
+
+     
+            
+            <article id="article&aside">
+
+                <h2>HTML Layout Techniques</h2>
+                <p>There are four different techniques to create multicolumn layouts. Each technique has its pros and
+                    cons:</p>
+                <details>
+                    <summary>There are:</summary>
+                    <ul>
+                        <li> CSS framework</li>
+                        <li>CSS float property</li>
+                        <li> CSS flexbox</li>
+                        <li> CSS grid</li>
+                    </ul>
+                </details>
+
+                <div class="boxdiv">
+                    <h1>This box is inside on the parent element
+                        By the declaraction <br>
+                        <mark>overflow: auto</mark>
+                    </h1>
+                </div>
+
+            </article>
+
+        
+
+            <aside>
+                <h1>Semantic Elements in HTML</h1>
+                <p>In HTML there are some semantic elements that can be used to define different parts of a web
+                    page:
+                    <mark>header,nav,article,aside,<br>footer,main details,summary,mark<br> figcaption,figure,section,
+                    </mark>
+                </p>
+            </aside>
+
+
+
+            <footer id="footer">
+                <p>Vishnu V<br>
+                    <a href="vishnuvijayakumar25vv@gmail">Vishnu@example.com</a>
+                </p>
+
+            </footer>
+
+    </main>
+
+
+</body>
+
+</html>
